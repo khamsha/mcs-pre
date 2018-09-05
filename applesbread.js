@@ -1,0 +1,9 @@
+let money = prompt('Сколько у вас с собой денег?')
+let a = prompt('Сколько вы купили яблок?')
+let b =  prompt('Сколько вы купили батонов хлеба?')
+let aprice = prompt('Сколько стоит одно яблоко?')
+let atotal = a*aprice
+let bprice = prompt('Сколько стоит один батон хлеба?')
+let btotal = b*bprice
+let result = Boolean(money>atotal+btotal)
+document.body.innerHTML = result
